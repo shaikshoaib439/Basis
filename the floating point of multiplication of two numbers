@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+  double a,b,c;
+  printf("enter the number");
+  scanf("%lf%lf",&a,&b);
+  c=a*b;
+  printf("the floating point of two number is %lf",c);
+  return 0;
+}
