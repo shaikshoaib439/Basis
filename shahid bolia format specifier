@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+  
+  float f = 1.24523;
+printf("the floating point number is %.2f",f);
+  return 0;
+}
