@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main(){
+  char _operator;
+  int a,b,add,sub,div,mul;
+  printf("enter the operator");
+  scanf("%c",&_operator);
+  printf("enter the two operands");
+  scanf("%d%d",&a,&b);
+  switch(_operator){
+    case '+':add=a+b;
+            printf("%d",add);
+            break;
+    case  '*':mul=a*b;
+             printf("%d",mul);
+             break;
+    case  '-':sub=a-b;
+             printf("%d",sub);
+    break;
+    default :printf("sorry not defined");
+        
+  }
+  
+  return 0;
+}
