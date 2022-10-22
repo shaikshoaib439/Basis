@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+  int number,fact=1;
+  printf("enter the number to fact");
+  scanf("%d",&number);
+  for(int i=1;i<=number;i++){  /*
+                                1<=5
+                                1*1=1
+                                2<=5
+                                1*2=2
+                                3<=5
+                                1*3=3
+                                4<=5
+                                1*4=4
+                                5<=5
+                                1*5=5
+                                */
+                                
+       fact=fact*i;
+  }
+  printf("the fact of %d is %d",number,fact);
+  return 0;
+  }
